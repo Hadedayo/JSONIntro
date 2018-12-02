@@ -9,11 +9,11 @@ describe "Testing the exchange rates" do
   end
 
   it "should have base as EUR " do
-    expect(@exchange_rates.json_file["base"]).to eq 'EUR'
+    expect(@exchange_rates.get_base).to eq 'EUR'
   end
 
   it "should respond to the correct date " do
-    expect(@exchange_rates.json_file["date"]).to eq "2017-07-26"
+    expect(@exchange_rates.get_date).to eq "2017-07-26"
   end
 
   it "should have individual keys in the json_exchange as strings" do
