@@ -58,9 +58,4 @@ describe "Testing the exchange rates" do
     end
   end
 
-
-
-
-
-
 end

@@ -10,7 +10,7 @@ JSON is text, written with JavaScript object notation. The files tests the vario
 To access this repository, clone using HTTPS by copying the HTTPS link and running 'git clone <i>insert https link here'
 
 ## JSON.parse()
-JSON.parse is used to convert a json to an hash to be raed in Ruby.
+JSON.parse is used to convert a json to an hash to be read in Ruby.
 
 ##  Running RSpec
 RSpec is a test-driven development tool written in Ruby to test Ruby code.
